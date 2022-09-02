@@ -71,7 +71,7 @@
           "    const useFields = {};",
           "    if(${3:value}) useFields.${3:value} = ${3:value};",
           "    try {",
-          "      const ${4:response} = await ${5:Model}.findByIdAndUpdate(id, {$set: useFields});",
+          "      const ${4:response} = await ${5:Model}.findByIdAndUpdate(id, {$$set: useFields});",
           "      console.log(${4:response});",
           "      return res.json(${4:response});",
           "    } catch (err) {",
