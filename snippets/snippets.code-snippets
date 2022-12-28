@@ -32,7 +32,7 @@
           "  });",
           ""
         ],
-        "description": "Write a post request"
+        "description": "Write a get request"
     },
     "post request": {
         "prefix": "post",
